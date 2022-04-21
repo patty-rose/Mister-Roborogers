@@ -35,13 +35,13 @@ Copyright (c) _2022_ _Patty Otero_
 
 ## Tests
 
-Describe: zeroToInput()
+_Describe: zeroToInput()_
 
-Test: "It should return an array of numbers from 0 to the user's inputted number"
+Test: "It should return an array of numbers from 0 to the inputted number"
 Code: zeroToInput(5);
 Expected Output: const numRange = [0, 1, 2, 3, 4, 5]
 
-Describe: numberSubstituter(numRange);
+_Describe: numberSubstituter(numRange);_
 
 Test: "It should replace all occurences of 1 in the range with "Beep!"
 Code: numberSubstituter(3);
