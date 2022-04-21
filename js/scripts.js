@@ -2,7 +2,7 @@
 function zeroToInput(numberStr){
   let number = parseInt(numberStr);
   let rangeArr = [];
-  for (let i=0; i<=number; i++){
+  for (let i = 0; i <= number; i++){
     rangeArr.push(i);
   }
   const arrayOfStrings = rangeArr.toString().split(",");
@@ -10,7 +10,13 @@ function zeroToInput(numberStr){
 };
 
 function numberSubstituter(numberStr){
-  let numberArr = zeroToInput(numberStr);
+  let rangeArr = zeroToInput(numberStr);
+  for (let i = 0; i < rangeArr.length; i++){
+    if (rangeArr[i].includes("1")) {
+      rangeArr[i] = "Beep!";
+    }
+  }
+  return rangeArr;
 }
 
 
