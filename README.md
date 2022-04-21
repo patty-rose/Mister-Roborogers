@@ -41,9 +41,12 @@ Test: "It should return an array of numbers from 0 to the user's inputted number
 Code: zeroToInput(5);
 Expected Output: const numRange = [0, 1, 2, 3, 4, 5]
 
-Describe: numberSubstitute(numRange);
+Describe: numberSubstituter(numRange);
 
 Test: "It should replace all occurences of 1 in the range with "Beep!"
-Code: numberSubstitute(3);
+Code: numberSubstituter(3);
 expected Output: ["Beep!", "2", "3"]; 
 
+Test: "It should replace all occurences of 2 in the range with "Boop!"
+Code: numberSubstitute(3);
+expected Output: ["1", "Boop!", "3"]; 
