@@ -50,3 +50,7 @@ expected Output: ["Beep!", "2", "3"];
 Test: "It should replace all occurences of 2 in the range with "Boop!"
 Code: numberSubstitute(3);
 expected Output: ["1", "Boop!", "3"]; 
+
+Test: "It should replace all occurences of 3 in the range with "Won't you be my neighbor?"
+Code: numberSubstitute(3);
+expected Output: ["1", "2", "Won't you be my neighbor?"];
