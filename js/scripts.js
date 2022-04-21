@@ -5,7 +5,12 @@ function zeroToInput(numberStr){
   for (let i=0; i<=number; i++){
     rangeArr.push(i);
   }
-  return rangeArr;
+  const arrayOfStrings = rangeArr.toString().split(",");
+  return arrayOfStrings
+};
+
+function numberSubstituter(numberStr){
+  let numberArr = zeroToInput(numberStr);
 }
 
 
