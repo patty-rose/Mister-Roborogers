@@ -62,3 +62,7 @@ expected Output: ["1", "Boop!", "3", "4", "5", "6", "7", "8", "9", "10", "11", "
 Test: "It should replace all occurences of 3 in the range with "Won't you be my neighbor?"
 Code: numberSubstitute(3);
 expected Output: ["1", "2", "Won't you be my neighbor?"];
+
+Test: "It should replace the entire number in the range if any digit within it is 3 with "Won't you be my neighber?"
+Code: numberSubstituter(13);
+expected Output: ["1", "2", ""Won't you be my neighber?"", "4", "5", "6", "7", "8", "9", "10", "11", "12", ""Won't you be my neighber?""]; 
