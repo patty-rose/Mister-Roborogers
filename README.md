@@ -65,4 +65,9 @@ expected Output: ["1", "2", "Won't you be my neighbor?"];
 
 Test: "It should replace the entire number in the range if any digit within it is 3 with "Won't you be my neighber?"
 Code: numberSubstituter(13);
-expected Output: ["1", "2", ""Won't you be my neighber?"", "4", "5", "6", "7", "8", "9", "10", "11", "12", ""Won't you be my neighber?""]; 
+expected Output: ["1", "2", "Won't you be my neighber?", "4", "5", "6", "7", "8", "9", "10", "11", "12", "Won't you be my neighber?"];
+
+Test: "It should substitue 1s with "Beep!" and 2s with "Boop!" as before but prioritzing 2s over 1s with numbers that contain both 1s and 2s"
+Code: numberSubstituter(13);
+expected Output: ["Beep!", "Boop!", "3", "4", "5", "6", "7", "8", "9", "Beep!", "Beep!", "Boop!", "13"];
+
