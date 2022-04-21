@@ -71,3 +71,6 @@ Test: "It should substitue 1s with "Beep!" and 2s with "Boop!" as before but pri
 Code: numberSubstituter(13);
 expected Output: ["Beep!", "Boop!", "3", "4", "5", "6", "7", "8", "9", "Beep!", "Beep!", "Boop!", "13"];
 
+Test: "It should substitue 2s with "Boop!" and 3s with "Won't you be my neighbor?" as before but prioritzing 3s over 2s with numbers that contain both 2s and 3s"
+Code: numberSubstituter(23);
+expected Output: ["1", "Boop!", "Won't you be my neighbor?", "4", "5", "6", "7", "8", "9", "10", "11", "Boop!", "Won't you be my neighbor?", "14", "15", "16", "17", "18", "19", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?"];
