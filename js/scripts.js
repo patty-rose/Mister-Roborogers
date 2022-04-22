@@ -5,8 +5,8 @@ function zeroToInput(numberStr){
   for (let i = 0; i <= number; i++){
     rangeArr.push(i);
   }
-  const arrayOfStrings = rangeArr.toString().split(",");
-  return arrayOfStrings
+  const rangeStrArr = rangeArr.toString().split(",");
+  return rangeStrArr
 };
 
 function numberSubstituter(numberStr){
@@ -21,7 +21,7 @@ function numberSubstituter(numberStr){
     }
   }
   return rangeArr;
-}
+};
 
 
 //User Interface Logic
