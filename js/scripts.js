@@ -26,5 +26,6 @@ function numberSubstituter(numberStr){
 
 //User Interface Logic
 jQuery(document).ready(function() {
-  
+
+
 })
