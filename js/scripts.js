@@ -27,15 +27,16 @@ function numberSubstituter(numberStr){
 jQuery(document).ready(function() {
   $("#submit").submit(function(event) {
     $("#response").hide();
+    $("#special").hide();
     event.preventDefault();
 
     const number = $("input#number").val();
-
+    console.log(number);
     if (number === "143") {
-      $("#143").show();
-
-    }
-    $(".numberResponse").text(numberSubstituter(number));
-    $("#response").show();
+      $("#special").show();
+    } else {
+      $(".numberResponse").text(numberSubstituter(number));
+      $("#response").show();
+    };
   });
 })
