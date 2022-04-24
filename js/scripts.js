@@ -13,19 +13,29 @@ function numberSubstituter(numberStr){
   let rangeArr = zeroToInput(numberStr);
   for (let i = 0; i < rangeArr.length; i++){
     if(rangeArr[i].includes("3")) {
-      rangeArr[i] = "Won't you be my neighbor?";
+      rangeArr[i] = '"Won\'t you be my neighbor?"';
     }else if (rangeArr[i].includes("2")) {
-      rangeArr[i] = "Boop!";
+      rangeArr[i] = '"Boop!"';
     }else if (rangeArr[i].includes("1")) {
-      rangeArr[i] = "Beep!";
+      rangeArr[i] = '"Beep!"';
     }
   }
-  return rangeArr;
+  return rangeArr.join(", ");
 };
-
 
 //User Interface Logic
 jQuery(document).ready(function() {
+  $("#submit").submit(function(event) {
+    $("#response").hide();
+    event.preventDefault();
 
+    const number = $("input#number").val();
 
+    if (number === "143") {
+      $("#143").show();
+
+    }
+    $(".numberResponse").text(numberSubstituter(number));
+    $("#response").show();
+  });
 })
