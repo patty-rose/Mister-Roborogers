@@ -1,24 +1,32 @@
-# _title_
+# _Mister Roborogers_
 
 #### By _**Patty Otero**_
 
-#### _description_
+#### _a simple Mister Rogers themed webpage to practice javascript loops. User inputs a number and the number range is returned complete with "malfunctions"._
 
-## Github pages site: 
+## Github pages site: https://patty-rose.github.io/Mister-Roborogers/ 
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
-* _Bootstrap_
+* _Javascript_
+* _JQuery_
 
 ## Description
 
-_more detailed description_
+_When a user inputs a number the response will follow these rules: *Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+For example, all digits of the number 109 would be replaced with "Beep!"
+*Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+For example, all digits of the number 2099 would be replaced with "Boop!"
+*Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+For example, all digits of the number 32 would be replaced with "Won't you be my neighbor?"
+
+There's an easter egg if 143 is entered into the field-- displaying a fact about Mister Rogers' favorite number._
 
 ## Setup/Installation Requirements
 
-* View at Github pages site:  or follow next steps
+* View at Github pages site: https://patty-rose.github.io/Mister-Roborogers/ or follow next steps:
 * Clone this repository to your desktop
 * Get into your file explorer and go to the top of the directory
 * Open index.html in your browser
