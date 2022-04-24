@@ -1,7 +1,23 @@
 body{
-  margin: 50px;
-  background-image: linear-gradient(#2b7dac, #0d3d63);
+  margin: 50px 50px 50% 50px;
+  background-image: linear-gradient(#a9cce0, #3a75a5);
   color: #e5432d;
+}
+
+#mrRogers{
+  float: left;
+  width: 50%;
+  height: auto;
+  margin: 0 50px 25px 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+#response{
+  background: white;
 }
 
 .blink{

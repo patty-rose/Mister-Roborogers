@@ -10,12 +10,19 @@
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to Mr. Robogers Neighborhood!</h1>
+    <img src="img/mistercircle.png" alt="mister rogers putting his sweater on in a circle frame" id="mrRogers">
+    <h1>Welcome to Mister ROBOgers Neighborhood!</h1>
     <h3>Won't you be my neighbor? <span class="blink">neighbor? </span> <span class="blink1">neighbor?! </span><span class="blink2">neighboop?! </span><span class="blink">neighbeep?!! </span><span class="blink3">Beep! </span><span class="blink2">BOOP! </span><span class="blink3">NEIGHBOR?!? </span></h3>
-    <div id="submit"> 
-      <label for="number">Hello friend! Wont you stay and give me a number?! Any number at all:</label>
-      <input id="name" class="form-control" type="text">
-    </div>
+    <form id="submit"> 
+      <div class="form-group">
+        <label for="number">Hello friend! Wont you stay and give me a number?!</label>
+        <input id="number" class="form-control" type="text">
+      </div>
+        <button type="submit" class="btn btn-outline-light btn-lg btn-block">"Any number at all!"</button>
+    </form>
+  </div>
+  <div class="response">
+    <h3 id="response"><span class="numberResponse"></h3>
   </div>
 </body>
 </html>
