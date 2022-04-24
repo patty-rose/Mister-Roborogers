@@ -26,9 +26,10 @@ function numberSubstituter(numberStr){
 //User Interface Logic
 jQuery(document).ready(function() {
   $("#submit").submit(function(event) {
+    event.preventDefault();
     $(".response").hide();
     $(".special").hide();
-    event.preventDefault();
+    
 
     const number = $("input#number").val();
     console.log(number);
